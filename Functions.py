@@ -177,6 +177,6 @@ def DataRestoreBackup(n):
         zip_file.extract('buffer.txt', 'C:\\Backup')
     os.chdir('C:\\Backup')
     os.rename('buffer.txt', n)
-    os.chdir('C:\\Users\\Лера\\PycharmProjects\\pythonProject5')
+    os.chdir('C:\\Users\\Arina\\PycharmProjects\\pythonProject5')
     DataReading('C:\\Backup\\' + n)
     os.remove('C:\\Backup\\' + n)
